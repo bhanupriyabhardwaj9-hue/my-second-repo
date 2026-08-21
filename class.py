@@ -96,7 +96,44 @@ n=str(a)
 print(n)
 print(type(n)
 '''
+'''
 a="YUG"
 n=int(a)
 print(n)
 print(type(n))
+'''
+'''
+a=""
+a=bool(a)
+print(type(a))
+print(a*10*2)
+'''
+'''
+a=None
+print(a)
+print(type(a))
+'''
+'''
+x=[10,20,30,40,50]
+y=bytes(x)
+print(y[0])
+print(y[1])
+print(y[2])
+print(y[3])
+print(y[4])
+'''
+""" x=[10,20,30,40,50]
+y=bytes(x)
+for a in y:
+    print(a)
+ """
+""" x=[340,40,7,19]
+y=bytes(x) """
+""" x=[10,20]
+y=bytes(x)
+x[0]=90
+ """
+a=range(10,2,-2)
+print(a)
+for x in a:
+    print(x)
