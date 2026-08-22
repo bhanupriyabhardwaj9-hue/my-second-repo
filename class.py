@@ -133,7 +133,45 @@ y=bytes(x) """
 y=bytes(x)
 x[0]=90
  """
-a=range(10,2,-2)
+'''a=range(10,2,-2)
 print(a)
 for x in a:
-    print(x)
+    print(x)'''
+'''a=-89 #any number is true except 0 or none 
+a="Amit" #String is true except empty string
+print(bool(a)+3)'''
+
+""" a=5
+print("123"+a) """
+""" a=5
+print(str(a)+"123")
+print(a+int("123")) """
+""" a=5
+n=float(a)
+print(n)
+print(type(n)) """
+""" a=5.9
+n=int(a)
+print(n)
+print(type(n)) """
+""" b=6
+c=str(b)
+print(c)
+print(type(c)) """ 
+""" a=10
+b=30
+c=-5
+d=(a if a<b else b)+30 """
+""" a=10
+b=20
+c=-5
+d=(a if a<c else c) if a<b else (b if b<c else c) """
+a=20
+b=12
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+print(a//b)
