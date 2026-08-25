@@ -1,9 +1,9 @@
-''''''
+from sys import argv
+'''
 #value="Raj"
 #value=12.87
 #print(value)
 #print(type(value))
-'''
 '''
 #a,b,c="Bhanupriya",87,82
 #print(a,b,c)
@@ -166,7 +166,8 @@ d=(a if a<b else b)+30 """
 b=20
 c=-5
 d=(a if a<c else c) if a<b else (b if b<c else c) """
-a=20
+
+""" a=20
 b=12
 print(a+b)
 print(a-b)
@@ -174,4 +175,68 @@ print(a*b)
 print(a/b)
 print(a%b)
 print(a**b)
-print(a//b)
+print(a//b) """
+
+""" val=(12 or 5)-3
+print(val)
+x=0 or 4
+y=5 or 7
+print(x,y)
+a=not 5
+b=not 0
+print(a,b) """
+
+""" a=10
+b=20
+a+=30
+b-=10
+print(a,b) """
+
+""" a=10
+print(a)
+print(-a) """
+
+""" text="Welcome to Python Programming"
+print("Welcome" in text)
+print("python" in text)
+print("Programming" in text)
+print("hello" not in text)"""
+
+""" a=19
+b=19
+print(id(a))
+print(id(b))
+print(a is b) """
+
+""" name=input("Enter your name:")
+print("Your name is:",name) """
+
+""" a=input("Num 1:")
+b=input("Num 2:")
+c=float(a)+float(b)
+print(c) """
+
+""" principle=float(input("enter p:"))
+rate=float(input("enter r:"))
+years=int(input("enter y:"))
+simple_interest=(principle*rate*years)/100
+print("The simple interest is:",simple_interest) """
+""" a=eval("10+10")
+print(a)
+print(10>=10)
+b=eval("10*10")
+print(b) """
+
+""" val=eval(input("Enter Expression:"))
+print(val)
+print(type(val)) """
+
+""" a=eval(input("Num 1-"))
+b=eval(input("Num 2-"))
+c=a+b
+print(c)
+ """
+a=eval(argv[1])
+b=eval(argv[2])
+c=a+b
+print(c)
