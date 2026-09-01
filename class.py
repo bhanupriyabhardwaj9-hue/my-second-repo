@@ -1,4 +1,5 @@
-from sys import argv
+""" from sys import argv """
+
 '''
 #value="Raj"
 #value=12.87
@@ -236,7 +237,89 @@ b=eval(input("Num 2-"))
 c=a+b
 print(c)
  """
-a=eval(argv[1])
+""" a=eval(argv[1])
 b=eval(argv[2])
 c=a+b
-print(c)
+print(c) """
+""" print("abc") """
+""" 
+print(argv[2])
+ """
+""" a=eval(argv[1])
+b=eval(argv[2])
+c=a+b
+print(c) 
+print("The Length of values:", len(argv)) """
+
+""" str1="Priya's Diary"
+str2='Priya said,"I am a good girl"'
+print(str1)
+print(str2)
+ """
+""" c="" +34-4
+print(c) """
+""" c=bool("") +34-4
+print(c) """
+""" c=bool("dsjkj") +34-4
+print(c) """
+
+""" s1="Python"
+print(s1[0])
+print(s1[len(s1)-1])
+print(s1[-1])
+print(s1[-len(s1)])
+for x in range (len(s1)):
+    print(s1[x])
+for x in range (-len(s1),0):
+    print(s1[x])
+for s in s1:
+    print(s) """
+
+""" s1="Python in GLA CL2" 
+print(s1)
+print(s1[::])
+print(s1[13:9:-1])
+print(s1[10:-4:])
+print(s1[-5:9:-1])
+print(s1[-5:9:])
+print(s1[-50:90:])
+print(s1[-100]) """
+
+""" name="Bhavya"
+print(name)
+print(name[0])
+name[0]="X" """
+
+""" a="Python"
+b="Programming"
+c=a+b
+print(c) """
+""" a="Python"
+b=4 #Always multiply string with a whole number
+print(a*b) """
+
+""" print("p" in "python")
+print("z" in "python")
+print("on" in "python")
+print("pa" in "python")
+print("y" not in "apple") """
+""" s1="abcd"
+s2="abcdefg"
+print(s1==s2)
+if(s1==s2):
+    print("Both are same")
+else:
+    print("Not same") """
+
+""" s1=input("Enter string 1:")
+s2=input("Enter string 2:")
+output=print("same") if s1==s2 else print("Not same")
+print(output)
+ """
+""" s1=input("Enter string 1:")
+s2=input("Enter string 2:")
+output="same" if s1==s2 else "Not same"
+print(output) """
+
+""" s1=" Amit Singh "
+print(len(s1.strip())) """
