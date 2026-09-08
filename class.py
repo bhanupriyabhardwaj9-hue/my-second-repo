@@ -323,3 +323,75 @@ print(output) """
 
 """ s1=" Amit Singh "
 print(len(s1.strip())) """
+""" s1="python is a programming language. Python is easy to learn. Python is used in AI and ML"
+print(s1.find("Python"))
+print(s1.index("Python"))
+print(s1.rfind("Python"))
+
+output="Yes" if s1.find("Python")!=-1 else "No"
+print(output)
+output="Yes" if "Python" in s1 else "No
+print(output)
+ """
+""" s1="python is a programming language. Python is easy to learn. Python is used in AI and ML"
+print(id(s1))
+s2=s1.count("Python")
+print(id(s1))
+print(s2)
+for i in s1:
+    print(i,s1.count(i)) if s1.count(i)>15 else None """
+
+""" s1="Priya Nishu Eshika Durgesh"
+s2=s1.split()
+print(s1, type(s1))
+print(s2, type(s2))
+for item in s2:
+    print(item,s1.count(item)) """
+""" dob=input("Enter Date of Birth(DD/MM/YYYY)")
+#year=dob.split("/")
+year=dob[dob.rfind("/")+1:]
+print(year) """
+
+""" l1=["22","11","2026"]
+s1="-".join(l1)
+print(s1)
+print(type(s1)) """
+
+""" x="Python"
+y=""
+z=x.split()
+for i in z:
+    y=y+x[::2]
+ print(y.strip()) """
+
+""" str1=input("Enter a string:")
+sub=""
+for i in str1.split():
+    sub+=i[::2]+" "
+print(sub.strip()) """
+
+""" str1="The quick brown fox jumps over the lazy dog"
+sub="fox"
+print(str1.count(sub)) """
+
+""" str1=input("Enter a string")
+sub=""
+for i in str1:
+  if str1.count(i)>1 and i not in sub:
+    sub+=f"{i}{str1.count(i)}"
+print(sub.strip()) """
+
+""" str1=input("Enter'#' and '*' as many times you want:")
+for i in str1:
+    if str1.count("#")==str1.count("*"):
+        print("0")
+    elif str1.count("#")>str1.count("*"):
+        print("1")
+    elif str1.count("#")<str1.count("*"):
+        print("-1") """
+
+str1="PROGRAMMING"
+sub=""
+for i in str1.split():
+    sub+=i[::2]+" " + i[::3]+" "
+print(sub.strip())
