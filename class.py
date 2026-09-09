@@ -390,8 +390,85 @@ for i in str1:
     elif str1.count("#")<str1.count("*"):
         print("-1") """
 
-str1="PROGRAMMING"
+""" str1="PROGRAMMING"
 sub=""
 for i in str1.split():
     sub+=i[::2]+" " + i[::3]+" "
-print(sub.strip())
+print(sub.strip()) """
+
+""" x=int(input("Enter a number:"))
+if x<0:
+    print("The number is a negative number")
+else:
+    print("the number is a positive number") """
+
+""" user_name='rahul'
+x=input("Enter a name: ")
+if user_name==x:
+    print("The name is valid")
+else:
+    print("The name is invalid") """
+
+""" a=eval(input("Enter the marks of english"))
+b=eval(input("Enter the marks of Hindi/Telugu"))
+c=eval(input("Enter the marks of Maths"))
+d=eval(input("Enter the marks of Science"))
+e=eval(input("Enter the marks of Geography"))
+f=eval(input("Enter the marks of History"))
+sum=(a+b+c+d+e+f)
+print("The sum is: ",sum)
+avg=sum/6
+print("the average is: ",avg)
+
+if avg>=90:
+    print("Ramu's grade is:A+")
+    print("RAMU HAS PASSED")
+elif avg>=89 and avg<90:
+    print("Ramu's grade is:A")
+    print("RAMU HAS PASSED")
+elif avg>=79 and avg<89:
+    print("Ramu's grade is:B+")
+    print("RAMU HAS PASSED")
+elif avg>=69 and avg<79: 
+    print("Ramu's grade is:B")
+    print("RAMU HAS PASSED")
+elif avg>=45 and avg<69: 
+    print("Ramu's grade is:C")
+    print("RAMU HAS PASSED")
+elif avg>=33 and avg<44: 
+    print("Ramu's grade is:D")
+    print("RAMU HAS PASSED")
+else:
+    print("RAMU HAS FAILED") """
+
+""" val=3.789
+s="%.2d"%val
+print(s) """
+
+""" items_cost=[10,20,30]
+gst=2
+for x in items_cost:
+    print(x+gst) """
+
+""" for x in range(1,5):
+    print(x) """
+
+""" x=[10,20,30,"Python"]
+for i in x:
+    print(i) """
+
+""" x="python"
+for ch in x:
+    print(ch) """
+
+""" item_cost=[10,20,30]
+sum=0
+for x in item_cost:
+    sum=sum+x
+print(sum) """
+
+x=input("Enter a number")
+num=0
+for ch in x:
+    y=num+int(x)
+print(y)
