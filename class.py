@@ -467,8 +467,37 @@ for x in item_cost:
     sum=sum+x
 print(sum) """
 
-x=input("Enter a number")
+""" x=input("Enter a number")
 num=0
 for ch in x:
     y=num+int(x)
-print(y)
+print(y) """
+
+""" str1="PROGRAMMING"
+sub=""
+for i in str1.split():
+    sub+=i[::2]+" " + i[1::2]+" "
+print(sub.strip()) """
+
+""" a=input("Enter a string")
+b=int(input("Enter start index"))
+c=int(input("Enter end index"))
+sub=a[b:c]
+reversed_string=sub[::-1]
+print(reversed_string) """
+
+""" str1=input("Enter a string")
+b=str1[::-1]
+if str1==b:
+    print("The string is a palindrome")
+else:
+    print("The string is not a palindrome") """
+
+a="PYTHONPROGRAMMING"
+print(a[0:3])
+print(a[-3:])
+print(a[2:8])
+print(a[::2])
+print(a[::-1])
+
+
