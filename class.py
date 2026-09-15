@@ -493,11 +493,77 @@ if str1==b:
 else:
     print("The string is not a palindrome") """
 
-a="PYTHONPROGRAMMING"
+""" a="PYTHONPROGRAMMING"
 print(a[0:3])
 print(a[-3:])
 print(a[2:8])
 print(a[::2])
-print(a[::-1])
+print(a[::-1]) """
 
+""" s1="python is a programming language"
+l1=s1.split()
+print(l1)
+print(type(l1))
+print(l1[1])
+for word in l1:
+    print(word) """
 
+""" s1="Nishu is my friend Durgesh is my friend Eshika is my friend"
+l1=s1.split("is my friend")
+print(l1)
+print(type(l1))
+print(l1[1])
+for word in l1:
+    print(word) """
+
+""" l1=["Nishu","Durgesh","Eshika","Abhishek"]
+s1="-".join(l1)
+print(s1)
+print(type(s1)) """
+
+""" s1="bhanupriya bhardwaj"
+print(id(s1))
+s2=s1.capitalize()
+print(s1)
+print(id(s1))
+print(s2)
+print(id(s2)) """
+
+""" s1="12.29"
+print(s1.isalnum())
+print(s1.isalpha())
+print(s1.isdecimal())
+print(s1.isalpha())
+print(s1.isdigit()) """
+
+""" s1=input("Enter a value ")
+val=s1 if s1.isalpha() else eval(s1)
+print(val)
+print(type(val)) """
+
+#string interpolation 
+#method 1
+
+""" name="Mansi"
+place="Banaras"
+age="19"
+str1="{n} lives in {p} and her age is {a}".format(p=place,a=age,n=name)
+print(str1) """
+
+#method 2
+
+name="Mansi"
+place="Banaras"
+age="19"
+head="dhruv"
+str1=f"{name} lives in {place} and her age is {age}"
+print(str1)
+
+s2=f"""
+Dear {name},
+I know you live in {place}.
+Your age being {age}, please register to kids camp.
+regards 
+{head.title()}
+"""
+print(s2)
