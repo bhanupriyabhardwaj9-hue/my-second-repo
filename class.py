@@ -552,18 +552,50 @@ print(str1) """
 
 #method 2
 
-name="Mansi"
+""" name="Mansi"
 place="Banaras"
 age="19"
 head="dhruv"
 str1=f"{name} lives in {place} and her age is {age}"
 print(str1)
 
-s2=f"""
+s2=f
 Dear {name},
 I know you live in {place}.
 Your age being {age}, please register to kids camp.
 regards 
 {head.title()}
-"""
-print(s2)
+
+print(s2) """
+
+""" from module import x as y, add as sum, sub as substract
+x=23
+print(y)
+sum(12,5)
+substract(5,2) """
+
+#import my_package.module as module 
+""" from my_package.module import x as y, add as sum, sub as substract
+x=10
+y=20
+def f1():
+    print("Hello")
+print(dir()) """
+
+""" l1=[]
+print(l1)
+print(type(l1)) """
+
+""" l=[]
+l.append("Bhanupriya")
+l.append("Yug")
+l.append("Abhishek")
+print(l) """
+
+""" n=[10,20,30,40,50]
+n.insert(-2,20)
+print(n) """
+
+n=[1,2,3,1]
+n.remove(1)
+print(n)
