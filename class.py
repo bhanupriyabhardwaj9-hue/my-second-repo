@@ -596,6 +596,89 @@ print(l) """
 n.insert(-2,20)
 print(n) """
 
-n=[1,2,3,1]
+""" n=[1,2,3,1]
 n.remove(1)
+print(n) """
+
+""" n=[1,2,3,4,5]
+print(n.pop(1))
 print(n)
+print(n.pop())
+print(n) """
+
+""" n=[1,2,3,4,5]
+print(n.pop(10)) """
+""" 
+n=[1,2,3,4,"Two"]
+print(n)
+n.reverse()
+print(n)
+
+n=[1,4,5,37,9,7]
+n.sort()
+print(n)
+s=["Bhanupriya","Yug","Abhishek"]
+s.sort()
+print(s) """
+
+""" x=[1,2,3,4,5]
+y=x.copy() #or y=x[:]
+y[0]=7
+print(x)
+print(y) """
+
+""" x=[10,20,30]
+y=x[:]
+print(x)
+print(y)
+print(id(x))
+print(id(y))
+x[1]=99
+print(x)
+print(y)
+print(id(x))
+print(id(y)) """
+
+""" a=[1,2,3]
+b=[4,5,6]
+c=a+b
+print(c) """
+
+""" a=[1,2,3]
+print(a)
+print(2*a) """
+
+""" a=[80,90]
+b=[10,20,30,a]
+print(b[0])
+print(b[1])
+print(b[2])
+print(b[3]) """
+
+""" abcd=lambda x,y,z:(x+y)-z
+print(abcd(10,10,20)) """
+
+""" l1=[1,2,3,4,5,56,78,2,56]
+f=filter(lambda x:x>9 and x<100,l1)
+l=list(f)
+print(l)
+f=map(lambda x:x**2,l1)
+l=list(f)
+print(l)
+from functools import reduce
+f=reduce(lambda x,y:x if x<y else y,l1)
+print(f) """
+
+""" l1=[23,45,67,23,6,23,9]
+l2=[]
+for x in l1:
+    l2.append(x*x)
+print(l2)
+l3=[i*i for i in l1]
+print(l3)
+l4=[i*i for i in l1 if i*i>1000]
+print(l4) """
+
+""" name=("Mansi")  #it will be a tuple only when there is a comma added after the elemnt in a single value tuple
+print(name)
+print(type(name)) """
