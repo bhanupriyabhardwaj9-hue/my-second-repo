@@ -682,3 +682,87 @@ print(l4) """
 """ name=("Mansi")  #it will be a tuple only when there is a comma added after the elemnt in a single value tuple
 print(name)
 print(type(name)) """
+
+""" t1=(10,20,30)
+t2=(40,50,60)
+t3=t1+t2
+print(t3)
+ """
+
+""" t1=(10,20,30)
+t2=t1*3
+print(t2) """
+
+""" t=(10,20,30)
+print(len(t))
+
+t=(10,20,30,10,10,10)
+print(t.count(10)) """
+
+""" t=(40,10,30,20)
+t1=sorted(t) #generates a list
+print(t)
+print(t1) """
+""" 
+t=(40,10,30,20)
+t1=sorted(t,reverse=True)
+print(t1) """
+
+""" l=[]
+for x in range(3):
+    roll=int(input("Enter roll no"))
+    name=input("Enter name")
+    email=input("Enter email")
+    phone=input("Enter phone")
+    t=roll,name,email,phone
+    l.append(t)
+for r,n,e,p in l:
+    print("%5d %-15s %-20s %10s"%(r,n,e,p)) #%d is for integer,%s is for string ,"-"adds the space to the right(left alignment ) and vice versa for the positive sign
+ """
+""" #tuple comprehension
+t=(x**2 for x in range(1,6))
+print(type(t))
+for x in t:
+    print(x) """
+
+""" d={}
+d[1]="arun"
+d[2]="Riddhi"
+d[1]="Daksh"
+print(d)
+ """
+
+""" d={1:'Riddhi',2:'Riddhima',3:'Ambika'}
+if 400 in d:
+    print(d[400])
+else:
+    print("Key not found")
+ """
+""" d={}
+n=int(input("Enter the no of employees: "))
+i=1
+while i<=n:
+    name=input("Enter employee name: ")
+    salary=eval(input("Enter employee salary"))
+    d[name]=salary
+    i+=1
+for x in d:
+    print("The name is:",x,"and his salary is",d[x]) """
+
+""" d={1:'Ramesh',2:'Suresh',3:'Mahesh'}
+print("Before deleting key from dict",d)
+del d[1]
+print("After deleting key from dict",d) """
+""" 
+d={1:'Ramesh',2:'Suresh',3:'Mahesh'}
+print("before popitem",d)
+d.popitem()
+print("After popitem",d) """
+
+l1=[1,2,3,4,5,6,7,8]
+d={i:i**2 for i in l1}
+l2=[i**2 for i in l1]
+t=(i**2 for i in l1)
+print(l2)
+print(d)
+print(t)
